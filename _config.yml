@@ -49,12 +49,12 @@ author:
 
 
 ### Collections ###
-# collections:
-#   projects:
-#     output: true
-#     permalink: /projects/:name
-#   elements:                                             # For Documentation Only
-#     output: true                                        # For Documentation Only
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
 
 
 ### Disqus ###
@@ -69,22 +69,22 @@ analytics:
 
 
 ### Defaults for collections ###
-# defaults:
-#   - scope:
-#       path: ""
-#       type: "projects"
-#     values:
-#       layout: "page"
-#   - scope:                                              # For Documentation Only
-#       path: ""                                          # For Documentation Only
-#       type: "elements"                                  # For Documentation Only
-#     values:                                             # For Documentation Only
-#       layout: "element"                                 # For Documentation Only
-#   - scope:
-#       path: ""
-#       type: "posts"
-#     values:
-#       comments: false                                   # Set to true to enable disqus comments
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
 
 ### Exclude from processing ###
 exclude:
