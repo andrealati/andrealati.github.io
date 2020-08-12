@@ -51,9 +51,9 @@ author:
 
 ### Collections ###
 collections:
-  projects:
+  research:
     output: true
-    permalink: /projects/:name
+    permalink: /research/:name
 
 ### Disqus ###
 # disqus: your-short-name-disqus                          # Your website Shortname on disqus
@@ -70,7 +70,7 @@ analytics:
 defaults:
   - scope:
       path: ""
-      type: "projects"
+      type: "Research"
     values:
       layout: "page"
   # - scope:                                              # For Documentation Only
