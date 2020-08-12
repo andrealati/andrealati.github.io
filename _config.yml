@@ -22,18 +22,19 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : John Doe
-  image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
+  name              : Andrea Alati
+  # image             : https://i.imgur.com/uyDNQnn.jpg\
+  image             : /assets/io.JPG
+  # behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
+  email             : a.alati@lse.ac.uk
+  # facebook          : your_username
   github            : your_username
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
+  # linkedin          : your_username
+  # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
@@ -45,7 +46,7 @@ author:
 
 
 ### Posts ###
-permalink: /blog/:title
+# permalink: /blog/:title
 
 
 ### Collections ###
@@ -77,11 +78,11 @@ defaults:
   #     type: "elements"                                  # For Documentation Only
   #   values:                                             # For Documentation Only
   #     layout: "element"                                 # For Documentation Only
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
+  # - scope:
+  #     path: ""
+  #     type: "posts"
+  #   values:
+  #     comments: false                                   # Set to true to enable disqus comments
 
 ### Exclude from processing ###
 exclude:
