@@ -1,5 +1,3 @@
-name: Research
-
 Research
 ===========
 
