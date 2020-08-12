@@ -1,0 +1,30 @@
+Research
+===========
+
+#Job Market Paper 
+# Initial aggregate conditions and firm-level markups heterogeneity
+**Abstract**: In this paper, I explore the role of aggregate fluctuations as a persistent determinant of heterogeneity in firm-level markups. To analyze how business cycles generate dispersion in firm-level markups, I estimate the age profile of markups at the firm level and I use it to calibrate a general equilibrium model that features heterogeneous product markets, customer base accumulation and firm dynamics. In the model, firms' demands are constrained by the size of their customer bases. However, firms can accumulate customers using two complement channels: i) increasing sales by lowering prices and ii) making direct investments in customer acquisition. As the value of operating in each product market fluctuates endogenously with business cycles, aggregate conditions generate a selection on the  product market composition of the cohorts of listing firms that results in heterogeneity in the optimal customer acquisition processes of active firms. This heterogeneity, is persistent and is able to significantly affect the response of the economy to aggregate shocks.
+
+##Working Papers
+-------------- 
+# Leveraging on human capital: labor rigidities and sorting over the business cycle
+_with [Edoardo Acabbi](https://scholar.harvard.edu/eacabbi/home) and [Luca Mazzone](https://sites.google.com/view/lucamazzone/home)_
+
+**Abstract**: This paper introduces a structural model of the labor market that features both worker and firm heterogeneity and where workers accumulate human capital and can search on the job. We analyze the optimal provision of insurance within the firm through an optimal dynamic contract, that, paired with the assumption of limited liability on the firm side, implies downward wage-rigidity. In our framework, insurance incentives and contractual rigidities are crucial in determining the pattern of job matches and separations along the business cycle. In particular, we show that aggregate fluctuations can alter the sorting between workers and firms by affecting workers' search strategies and, as a consequence, distort their human capital accumulation. In addition, we show that we can represent the optimal contracting problem using both the promised utilities framework and the more computationally feasible recursive Lagragean approach.
+
+## Work in Progress
+-------------------- 
+# The public channel of monetary policy 
+_with [Silvana Tenreyro](http://personal.lse.ac.uk/tenreyro/) and [Gregory Thwaites](https://www.gregorythwaites.com/)_
+
+# Inflation dynamics with heterogeneous firms and customer markets
+
+# Financial frictons and capital accumulation
+
+## Short notes
+ --------------
+# Free manuals and productivity
+_with [Adrien Bussy](https://sites.google.com/view/abussy/home) and [Friedrich Geiecke](https://sites.google.com/view/friedrichgeiecke/research)_
+
+**Abstract**: This note considers the possible productivity effect of the vast amount of free answers to coding questions available online, a phenomenon we term manuals. Large parts of the manual production are the result of non-pecuniary motives, e.g. warm glow and social recognition. Developers take the time to answer detailed programming questions online and their answers are freely accessible. Different users than those who had originally asked the questions search and find the answers on a daily basis when they have to solve similar problems in their work. The re-use component of answers is very substantial. Up to 2018, there were around 17 million questions on today’s most popular website. These questions and their answers have been been viewed around 39 billion times over the same time span. Unlike patents or other measures of technological progress, most of such manuals has no proprietary rights or price. To motivate our analysis, we first establish that historical use of programming alone is a surprisingly competitive predictor of recent regional US economic growth, also when additionally controlling for historical IT investment or education. We then document the frequent use of manuals by programmers and look into the social norms which drive their wide-spread provision. A stylised model depicts manuals and new functionalities in programming languages as being close to perfect complements in a production function: The economy could not leverage the productivity of new programming functionalities close to as quickly without the widespread norms that generate the required manuals almost simultaneously.
+
