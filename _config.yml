@@ -72,7 +72,12 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-   - scope:
+  # - scope:                                              # For Documentation Only
+  #     path: ""                                          # For Documentation Only
+  #     type: "elements"                                  # For Documentation Only
+  #   values:                                             # For Documentation Only
+  #     layout: "element"                                 # For Documentation Only
+  - scope:
       path: ""
       type: "posts"
     values:
