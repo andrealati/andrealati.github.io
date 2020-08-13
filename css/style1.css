@@ -20,12 +20,16 @@ body {
     background-color: #fff;
 }
 
-
-div.panel_body {
-            font-size:90%;
-            text-align:justify;
+div.panel_coauthors{
+    font-size: 70%;
+    text-align:left;
+    font-style: italic;
 }
 
+div.panel_body {
+        font-size:90%;
+        text-align:justify;
+}
 
 div.panel_title {
             font-size:120%;
