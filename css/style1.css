@@ -635,3 +635,8 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+.link-text{visibility:hidden;font-size:14px;position:absolute;top:30px;left:50%;-moz-transform:translate(-50%, 0%);-o-transform:translate(-50%, 0%);-ms-transform:translate(-50%, 0%);-webkit-transform:translate(-50%, 0%);transform:translate(-50%, 0%)}
+/* .site-links{font-size:22px;padding:6px 0px 0px 6px}.site-links a{float:left;color:silver;position:relative;padding:0px 7px;white-space:nowrap}.site-links a .link-text{visibility:hidden;font-size:14px;position:absolute;top:30px;left:50%;-moz-transform:translate(-50%, 0%);-o-transform:translate(-50%, 0%);-ms-transform:translate(-50%, 0%);-webkit-transform:translate(-50%, 0%);transform:translate(-50%, 0%)}
+.site-links a:hover{color:#84bde5}
+.site-links a:hover .link-text{visibility:visible}@media screen and (max-width: 768px){.site-links{padding:6px 0px 0px 0px;margin-left:-2px}.site-links a{float:none;line-height:22px;padding:0px;margin:0px 10px 0px 0px}.site-links a
+.link-text{margin-left:4px;visibility:visible;position:static;display:inline-block;-moz-transform:translate(0%, -11%);-o-transform:translate(0%, -11%);-ms-transform:translate(0%, -11%);-webkit-transform:translate(0%, -11%);transform:translate(0%, -11%)}} */
