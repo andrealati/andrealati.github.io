@@ -21,24 +21,45 @@ body {
 }
 
 div.panel_coauthors{
-    font-size: 70%;
+    font-size: 110%;
     text-align:left;
     font-style: italic;
+    margin:5px 0 0 0;
 }
 
 div.panel_body {
-        font-size:90%;
+        font-size:95%;
         text-align:justify;
+        margin:10px 0 0 0;
 }
 
 div.panel_title {
-            font-size:120%;
+        margin:0px 0 20px 0;
+            font-size:130%;
             text-align:left;
             color: #005799/*#0081CC*/;
 }
 
 div.panel-heading  {
             background-color: yellow;
+}
+
+div.instructors{
+    margin: 5px 0 0 0;
+    font-size:90%;
+    font-style:italic;
+}
+
+div.courses{
+    margin: 0px 0px 20px 0;
+    font-size:100%;
+    font-weight: bold
+}
+
+div.courses:hover {
+    background: #f7f8fa;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f7f8fa), to(#f7f8fa));
+    background: -moz-linear-gradient(top,  #f7f8fa   ,  #f7f8fa);
 }
 
 /*  NICE TABLE */
@@ -121,14 +142,14 @@ table tr:hover td{
 .row.mouseon {
     padding-bottom: 5px;
     padding-top: 5px;
-    font-size: 120%;
+    font-size: 100%;
     -webkit-transition: background 1s ease-in-out;
     -moz-transition: background 1s ease-in-out;
     transition: background 1s ease-in-out;
     background: white;
     background: -webkit-gradient(linear, left top, left bottom, from(white), to(white));
     background: -moz-linear-gradient(top,  white,  white);
-
+    vertical-align: top;
 }
 .row.mouseon:hover {
     background: #f7f8fa;
@@ -202,7 +223,6 @@ html {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
     margin: 0 0 35px;
@@ -212,11 +232,10 @@ h6 {
 
 h3 {/*color:#005799*/;
     margin: 30px 0 10px;}
-h4 {    margin: 30px 0 10px;
-        color:#303030;
-        font-weight: 400;
-        font-size:130%;
-
+h4{margin: 30px 0 0px;
+font-weight: 500;
+font-size:120%;
+color: #005799
 }
 
 h2 { color:#000000;
@@ -635,6 +654,7 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
 .link-text{visibility:hidden;font-size:14px;position:absolute;top:30px;left:50%;-moz-transform:translate(-50%, 0%);-o-transform:translate(-50%, 0%);-ms-transform:translate(-50%, 0%);-webkit-transform:translate(-50%, 0%);transform:translate(-50%, 0%)}
 /* .site-links{font-size:22px;padding:6px 0px 0px 6px}.site-links a{float:left;color:silver;position:relative;padding:0px 7px;white-space:nowrap}.site-links a .link-text{visibility:hidden;font-size:14px;position:absolute;top:30px;left:50%;-moz-transform:translate(-50%, 0%);-o-transform:translate(-50%, 0%);-ms-transform:translate(-50%, 0%);-webkit-transform:translate(-50%, 0%);transform:translate(-50%, 0%)}
 .site-links a:hover{color:#84bde5}
