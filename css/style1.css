@@ -52,8 +52,7 @@ div.instructors{
 
 div.courses{
     margin: 0px 0px 20px 0;
-    font-size:100%;
-    font-weight: bold
+    font-size:110%;
 }
 
 div.courses:hover {
