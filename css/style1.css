@@ -33,6 +33,24 @@ div.panel_body {
         margin:10px 0 0 0;
 }
 
+summary {
+    font-weight: bold;
+    display: list-item;
+    outline:none;
+}
+
+details[open] {
+        font-size:95%;
+        text-align:justify;
+        margin:10px 0 0 0;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+
 div.panel_title {
         margin:0px 0 20px 0;
             font-size:130%;
