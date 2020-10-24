@@ -362,6 +362,11 @@ a:focus {
     background-color: rgba(39,62,84,0.01);
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -381,9 +386,12 @@ a:focus {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
 
     }
-
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+
+    .row {
+        flex-direction: column;
     }
 }
 
@@ -653,9 +661,6 @@ footer {
 footer p {
     margin: 0;
 }
-
-
-
 
 ::-moz-selection {
     background: rgba(39,62,84,0.12);
