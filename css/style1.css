@@ -282,7 +282,8 @@ p {
 }
 
 a {
-    color:#0081CC;
+    color: #005799;
+    /* #0081CC */
     -webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
@@ -301,6 +302,12 @@ i.color {color:#0081CC;}
 
 a:hover,
 a:focus {
+    text-decoration: underline;
+    /* color: #7B2323; */
+}
+
+.icon_a:hover,
+.icon_a:focus {
     text-decoration: none;
     color: #7B2323;
 }
