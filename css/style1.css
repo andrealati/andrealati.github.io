@@ -21,14 +21,14 @@ body {
 }
 
 div.panel_coauthors{
-    font-size: 110%;
+    font-size: 115%;
     text-align:left;
     font-style: italic;
     margin:5px 0 0 0;
 }
 
 div.panel_body {
-        font-size:95%;
+        font-size:110%;
         text-align:justify;
         margin:10px 0 0 0;
 }
@@ -55,12 +55,12 @@ details[open] summary {
     margin-bottom: .5em;
 }
 
-
 div.panel_title {
         margin:0px 0 20px 0;
             font-size:130%;
             text-align:left;
             color: #005799/*#0081CC*/;
+            font-variant:small-caps;
 }
 
 div.panel-heading  {
@@ -254,10 +254,15 @@ h6 {
 
 h3 {/*color:#005799*/;
     margin: 30px 0 10px;}
-h4{margin: 30px 0 0px;
-font-weight: 500;
-font-size:120%;
-color: #005799
+
+h4{
+        margin:0px 0 0px 0;
+        font-size:125%;
+        text-align:left;
+        font-weight:bold;
+        color: #005799/*#0081CC*/;
+        /*font-variant:small-caps;*/
+        text-transform:capitalize;
 }
 
 h2 { color:#000000;
@@ -400,6 +405,15 @@ a:focus {
     .row {
         flex-direction: column;
     }
+}
+
+
+.intro1{
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
 }
 
 .intro {
@@ -667,6 +681,7 @@ footer {
 
 footer p {
     margin: 0;
+    width:100%; text-align:center;
 }
 
 ::-moz-selection {
@@ -688,6 +703,71 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+
+/* Default social media links in author sidebar */
+.author-social {
+  display: block;
+  margin-bottom: 5px;
+  @include font-rem(14);
+  color: $black;
+  &:visited {
+    color: $black;
+  }
+  &:hover {
+    @include scale(1.1);
+  }
+  &:active {
+    @include translate(0, 2px);
+  }
+  .fa {
+        margin-right: 5px;
+    }
+}
+
+/* Author sidebar */
+.article-author-side {
+    display: none;
+    .bio-photo {
+        max-width: 110px;
+        @include rounded(150px);
+    }
+ /*   @media #{$small} {
+        display: block;
+        @include grid(12,2);
+        @include prefix(12,0.5);
+        @include suffix(12,0.5);
+        h3,
+        p,
+        .author-social {
+            display: block;
+            max-width: 125px;
+        }
+        h3 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .author-social {
+            margin-bottom: 5px;
+        }
+    }
+    @media #{$large} {
+        h3,
+        .bio-photo,
+        p,
+        .author-social {
+            max-width: 150px;
+        }
+    }
+    @media #{$x-large} {
+        @include grid(12,1.5);
+        @include prefix(12,2);
+    }*/
+}
+
 
 .link-text{visibility:hidden;font-size:14px;position:absolute;top:30px;left:50%;-moz-transform:translate(-50%, 0%);-o-transform:translate(-50%, 0%);-ms-transform:translate(-50%, 0%);-webkit-transform:translate(-50%, 0%);transform:translate(-50%, 0%)}
 /* .site-links{font-size:22px;padding:6px 0px 0px 6px}.site-links a{float:left;color:silver;position:relative;padding:0px 7px;white-space:nowrap}.site-links a .link-text{visibility:hidden;font-size:14px;position:absolute;top:30px;left:50%;-moz-transform:translate(-50%, 0%);-o-transform:translate(-50%, 0%);-ms-transform:translate(-50%, 0%);-webkit-transform:translate(-50%, 0%);transform:translate(-50%, 0%)}
