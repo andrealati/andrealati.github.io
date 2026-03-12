@@ -2,16 +2,6 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175172315-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-175172315-1');
-    </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,8 +22,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/style1.css" rel="stylesheet">
-    <!-- Custom Fonts
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Custom Fonts -->
     <script src="https://kit.fontawesome.com/1e0e372627.js" crossorigin="anonymous"></script>
     <!-- Change this line if you want to load other fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700" rel="stylesheet">
@@ -47,12 +36,11 @@
 
           <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                  <i class="fa fa-bars color" style="color:#ffffff" aria-hidden="true"></i>
+                  <i class="fa fa-bars nav-icon" aria-hidden="true"></i>
               </button>
               <a class="navbar-brand page-scroll" href="#page-top">
-                    <span class="light" style="color:#ffffff">
-                  <i class="fas fa-igloo" style="color:#ffffff" aria-hidden="true"></i> Home </span>
-              <!-- <i class="fas fa-igloo" style="color:#ffffff" aria-hidden="true"></i> -->
+                    <span class="light nav-icon">
+                  <i class="fas fa-igloo nav-icon" aria-hidden="true"></i> Home </span>
               </a>
           </div>
 
@@ -60,14 +48,8 @@
           <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
               <ul class="nav navbar-nav">
                   <li>
-                      <a class="page-scroll" href="#research" style="color:#ffffff; font-size:120%">Research</a>
+                      <a class="page-scroll nav-link" href="#research">Research</a>
                   </li>
-<!--                   <li>
-                      <a class="page-scroll" href="#teaching" style="color:#ffffff; font-size:120%">Teaching</a>
-                  </li> -->
-<!--                   <li>
-                      <a class="page-scroll" href="#references" style="color:#ffffff; font-size:120%">References</a>
-                  </li> -->
               </ul>
           </div>
           <!-- /.navbar-collapse -->
@@ -80,20 +62,16 @@
   <section id="header" class="container text-left">
       <div class='row'>
         <div class="col-lg-9 col-lg-offset-2">
-            <div class="column" style="float:left;  width: 30%; margin-right:0px; padding-top:50px">
+            <div class="column profile-sidebar">
 
-              <h1 style="color:#303030;border-bottom: solid 0px #303030; margin-bottom: 5px; padding-top:0px; font-size:20pt; text-align: left;  letter-spacing: 0px">
-               <img  src="profile_pic2.jpg" style="opacity: 0.9;border-radius:70px; border: 0px solid #3B5998; max-width: 85%; margin-top:70px; margin-bottom:15px;transform:rotate(0deg)">
+              <h1 class="profile-name">
+               <img src="profile_pic2.jpg" class="profile-photo">
                <br><strong>Andrea Alati</strong>
                </h1>
-                <a href="mailto:alati.andrea@gmail.com" class="icon_a"><i class="fa fa-envelope"></i><span class="link-text" style="">email</span> Email</a>
-                <br><a href="https://github.com/andrealati" class="icon_a"><i class="fa fa-github"></i><span class="link-text" style="">github</span> GitHub</a>
-                <!-- <br><a href="https://twitter.com/alatiandre" class="icon_a"><i class="fa fa-twitter"></i><span class="link-text">twitter</span> Twitter</a>
-                <br><a href="skype:andrea.alati?chat" class="icon_a"><i class="fa fa-skype"></i><span class="link-text">skype</span> Skype</a>
-                -->
+                <a href="mailto:alati.andrea@gmail.com" class="icon_a"><i class="fa fa-envelope"></i><span class="link-text">email</span> Email</a>
+                <br><a href="https://github.com/andrealati" class="icon_a"><i class="fa fa-github"></i><span class="link-text">github</span> GitHub</a>
               </div>
-            <div class="column" style="float:left;  text-align: justify; text-justify: inter-word; width: 70%; margin-right:0px; font-size:1.3em; padding-top:150px">
-               <!-- <p style="color:#000000; background: white; border-radius:40px; width: 100%; padding:0px; margin-bottom:0.25cm" > -->
+            <div class="column bio-content">
 
               Hi! I am a senior research economist in the Monetary Analysis Directorate at the Bank of England. My research interests are in macroeconomics, firm dynamics, and monetary policy. My work to date has primarily focused on the interactions between labor markets, firm dynamics and business cycles.
 
@@ -101,10 +79,7 @@
               <br> I received my Ph.D. in Economics from the London School of Economics.
 
               <br>
-              <!--<br> In September, I will join the Monetary Analysis Directorate at the Bank of England.-->
-
-              <br>
-              <br><strong>CV</strong>:<a href="https://andrealati.github.io/docs/cv_alati.pdf" target="_blank" class="icon_a" onclick="gtag('event', 'file_browsed', {'event-category': 'pdf' ,'event_label': 'CV'});"> <i class="far fa-file-pdf"></i></a>
+              <br><strong>CV</strong>:<a href="https://andrealati.github.io/docs/cv_alati.pdf" target="_blank" class="icon_a"> <i class="far fa-file-pdf"></i></a>
             </div>
           </div>
         </div>
@@ -115,324 +90,18 @@
         <div class="row">
             <div class="col-lg-9 col-lg-offset-2">
 
-                    <h2 style="margin-bottom:0px;margin-top:80px" style="color:#000000"><span> Research</span></h2>
+                    <h2 class="section-heading"><span> Research</span></h2>
                     <hr>
-                    
-                    <!-- EntrepSorting --> 
-                    <p><a href="https://eacabbi.github.io">  Edoardo Acabbi</a>, Andrea Alati, <a href="https://lucamazzone.github.io">Luca Mazzone</a> and <a href="https://martamorazzoni.weebly.com/">Marta Morazzoni </a> (2025).
-                    <br/> 
-                    <strong>Sorting into Entrepreneurial Teams</strong> <a href="https://andrealati.github.io/docs/wp/AAMM_team.pdf" class="fas fa-file-pdf" title="PDF" id="icon"></a><br/> 
-                    <sub>Also available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4068858"> SSRN</a></sub>
-                    <details  style="margin-top: -30px; padding-top: 0; margin-bottom: 10px;">
-                            <summary>Abstract</summary>
-                            This paper studies how entrepreneurs sort into teams and how team entrepreneurship affects the equilibrium distribution of firms. Leveraging employer-employee administrative records matched with privately-held firms’ balance sheet data for Portugal, we show that firms of entrepreneurial teams have higher sales, productivity and survival rates than those owned by single entrepreneurs. We then exploit information on individuals’ careers before opening a firm to establish that there is a strong degree of sorting in entrepreneurial teams along observed and unobserved heterogeneity. A novel theory of career choices and team formation rationalizes why similarity in entrepreneurs’ overall talent and dissimilarity in their specialization lead to better firm outcomes, providing insights into the micro-foundations of firm growth.
-                        </details>
-                    </p>
 
-                    <!-- Human Capital Ladders,  -->
-                    <p><a href="https://eacabbi.github.io">  Edoardo Acabbi</a>, Andrea Alati, and <a href="https://lucamazzone.github.io">Luca Mazzone</a> (2024).
-                        <br/> 
-                        <strong>Human Capital Ladders, Cyclical Sorting, and Hysteresis</strong> <a href="https://andrealati.github.io/docs/wp/human_capital_ladders_aam.pdf" class="fas fa-file-pdf" title="PDF" id="icon"></a><br/> 
-                        <sub>  R &amp; R at the American Economic Review, also available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4068858"> SSRN</a> and <a href="https://www.bankofengland.co.uk/working-paper/2024/human-capital-ladders-cyclical-sorting-and-hysteresis"> BoE-WP</a></sub>
-                    <details style="margin-top: -30px; padding-top: 0; margin-bottom: 10px;">
-                        <summary>Abstract</summary>
-                        Using administrative data, we document that workers acquire more human
-                        capital at more productive firms. Recessions distort workers-firm sorting,
-                        flatten the job ladder and impact human capital accumulation, as workers
-                        match on average to worse firms. To quantify the aggregate relevance of these
-                        effects, we build a directed search model with aggregate risk and worker-firm
-                        heterogeneity, in which human capital accumulation depends on firm quality.
-                        We estimate the model and show that recessions have persistent negative
-                        effects on the productivity of worker-firm matches, with distortions in sorting
-                        and human capital accumulation accounting for approximately 30% of
-                        cumulative output losses.
-                    </details>
-                    </p>
-
-                    <!-- MPI --> 
-                    <p>Andrea Alati, <a href="https://sites.google.com/view/johannesjfischer">Johannes Fischer</a>, Maren Froemel and <a href="https://www.ozgenozturk.com">Ozgen Ozturk</a> (2024).
-                    <br/> 
-                    <strong>Firms' Sales Expectations and Marginal Propensity to Invest</strong> <a href="https://andrealati.github.io/docs/wp/MPI_AFFO.pdf" class="fas fa-file-pdf" title="PDF" id="icon"></a><br/> 
-                    <sub>Also available at <a href="https://www.bankofengland.co.uk/working-paper/2024/firms-sales-expectations-and-marginal-propensity-to-invest">BoE-WP</a></sub>
-                    <details  style="margin-top: -30px; padding-top: 0; margin-bottom: 10px;">
-                            <summary>Abstract</summary>
-                            How do firms adjust their investment in response to sales shocks and what determines the response? Using a unique firm‑level survey, we propose a novel approach to estimate UK firms’ marginal propensity to invest (MPI) out of additional income: the forecast error of their sales growth expectations. Investment responds significantly to these sales surprises, with a 1 percentage point unexpected growth in sales translating into a 0.31 percentage point increase in capital expenditure. Firms that are more attentive to the state of the economy are more responsive, consistent with sales growth surprises providing firms with information about their demand. Sales growth surprises also cause firms to increase their prices, supporting this interpretation. We do not find evidence that these results are driven by financial frictions, uncertainty, or productivity shocks.
-                    </details>
-                    </p>
-
-                    <!-- Defusing --> 
-                    <p><a href="https://eacabbi.github.io"> Edoardo Acabbi</a> and Andrea Alati (2025).
-                    <br/> 
-                    <strong>Defusing leverage: liquidity management and labor contracts</strong>
-                    <!-- <a href="https://andrealati.github.io/docs/wp/.pdf" class="fas fa-file-pdf" title="PDF" id="icon"></a> -->
-                    <br/> 
-                    <sub>New version! Also available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4698308"> SSRN</a> and <a href="https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/defusing-leverage-liquidity-management-and-labor-contracts.pdf"> BoE-WP</a></sub>
-                    <details style="margin-top: -30px; padding-top: 0; margin-bottom: 10px;">
-                            <summary>Abstract</summary>
-                            We test whether firms use flexible contracts to limit the effects of labor-induced operating leverage. Using Italian administrative data, we show that greater reliance on temporary contracts dampens the sensitivity of cash-flow and profit volatility to shocks, especially among high-labor-share firms. Exploiting a staggered liberalization of temporary contracts, we show that the rise in adoption led to decreasing labor compensation, and—among firms with initially rigid labor costs— to an increase in profit margins, a decrease in profit dispersion, and an expansion in debt capacity and investment. Contract mix is thus an active hedging margin shaping financial responses to shocks.                        </details>
-                    </p>
-
-                    <!-- JMP --> 
-                    <p>Andrea Alati (2021).
-                    <br/> 
-                    <strong>Initial aggregate conditions and heterogeneity in firm-level markups</strong> <a href="https://andrealati.github.io/docs/wp/jmp_alati.pdf" class="fas fa-file-pdf" title="PDF" id="icon"></a><br/> 
-                    <sub>Old draft, new version coming soon</sub>
-                    <details  style="margin-top: -30px; padding-top: 0; margin-bottom: 10px;">
-                            <summary>Abstract</summary>
-                            I explore the role of aggregate fluctuations as a persistent determinant of heterogeneity in firm-level markups. To analyze how business cycles generate dispersion in markups, I estimate the effects of aggregate conditions at key moments of firms' lives on the age profiles of markups for a sample of U.S. listed companies. Using the estimated markups, I calibrate a general equilibrium model that features heterogeneous product markets, customer base accumulation and firm dynamics. A novel feature of the model is that, in addition to making direct investments in customer acquisition, firms can accumulate customers by increasing sales, which is important to match the empirical findings. As the value of operating in each product market fluctuates endogenously with business cycles, aggregate conditions generate a selection on the product-market composition of firm cohorts that results in time-varying heterogeneity in product-market characteristics across active companies. This heterogeneity is persistent and can significantly affect both the response of the economy to future aggregate shocks and the co-movements of aggregate markups with output.
-                    </details>
-                    </p>
-
-               <div class="title_content" style="margin-bottom:20px;">
-                     <h3 style="color:#005779">Work in Progress</h3>
-                </div>
-
-                <!-- Vacancies -->
-                <p> Andrea Alati, Tomas Key, <a href="https://philipschnattinger.github.io">Philip Schnattinger</a>, Bradley Speigner and <a href="https://www.yashiv.sites.tau.ac.il/">Eran Yashiv</a><br/>
-                <strong>Hiring, Mismatch, and Vacancies: Lessons from Unique U.K. Vacancy Data</strong>
-                </p>
-
-                <!-- Household Income and Debt -->
-                <p> Andrea Alati, <a href="https://sites.google.com/view/ferguscumming">Fergus Cumming</a> and <a href="https://www.poloalberto.com/"> Alberto Polo</a><br/>
-                <strong> Household Income and Debt</strong>
-                </p>
-
-                <!-- JRC -->   
-                <p> <a href="https://eacabbi.github.io/">Edoardo Acabbi</a>, Andrea Alati, <a href="https://www.bengriffy.com/">Ben Griffy</a>, <a href="https://lucamazzone.github.io/">Luca Mazzone</a> and <a href="https://sites.google.com/site/stanrabinovicheconomics/">Stanislav Rabinovich</a><br/>
-                <strong>The Optimal Design of Job Retention Schemes</strong>
-                </p> 
-
-                <!-- Dormant -->
-                <div class="title_content" style="margin-bottom:20px;">
-                     <h3 style="color:#005779">Dormant</h3>
-                </div>
-
-                <p> Andrea Alati, <a href="https://sites.google.com/view/abussy/home" target="_blank">Adrien Bussy </a> and <a href="https://sites.google.com/view/friedrichgeiecke/research" target="_blank">Friedrich Geiecke</a><br/>
-                <strong>Free manuals and productivity</strong>
-                <details style="margin-top: -30px; padding-top: 0; margin-bottom: 10px;">
-                       <summary>Abstract</summary>
-                        This note considers the possible productivity effect of the vast amount of free answers to coding questions available online, a phenomenon we term manuals. Large parts of the manual production are the result of non-pecuniary motives, e.g. warm glow and social recognition. Developers take the time to answer detailed programming questions online and their answers are freely accessible. Different users than those who had originally asked the questions search and find the answers on a daily basis when they have to solve similar problems in their work. The re-use component of answers is very substantial. Up to 2018, there were around 17 million questions on today’s most popular website. These questions and their answers have been been viewed around 39 billion times over the same time span. Unlike patents or other measures of technological progress, most of such manuals has no proprietary rights or price. To motivate our analysis, we first establish that historical use of programming alone is a surprisingly competitive predictor of recent regional US economic growth, also when additionally controlling for historical IT investment or education. We then document the frequent use of manuals by programmers and look into the social norms which drive their wide-spread provision. A stylized model depicts manuals and new functionalities in programming languages as being close to perfect complements in a production function: The economy could not leverage the productivity of new programming functionalities close to as quickly without the widespread norms that generate the required manuals almost simultaneously.
-                    </details>
-                </p>
-
-                <p> Andrea Alati, <a href="http://personal.lse.ac.uk/tenreyro/" target="_blank">Silvana Tenreyro </a> and <a href="https://www.gregorythwaites.com/" target="_blank"> Gregory Thwaites</a>
-                <br/> 
-                <strong>The public and private debt channel of monetary policy</strong>
-                </p>
+                    <div id="papers-container"></div>
             </div>
         </div>
     </section>
 
-  <!-- Teaching Section
-  <section id="teaching" class="container text-left">
-      <div class="row">
-      <div class="col-lg-9 col-lg-offset-2">
-              <h2 style="margin-bottom:0px;margin-top:70px"><span> Teaching </span></h2>
-              <hr>
-
-              <div class="title_content" style="margin-bottom:20px;">
-                   <h3 style="color:#005779"> Past courses </h3>
-              </div>
-
-              <div class="courses"><span style="color:#005779">&#9656;</span> <b>Micro and Macro Economics for Public Policy [PP440], Teaching Assistant, LSE, 2018-2019</b>
-              <div class="instructors"> Instructors: Ethan Ilzetzki and Daniel Sturm </div>
-              </div>
-
-              <div class="courses"><span style="color:#005779">&#9656;</span> <b>Macroeconomic Principles [EC210], Teaching Assistant, LSE, 2016-2017</b>
-                  <div class="instructors"> Instructors: Ricardo Reis and Kevin Sheedy </div>
-              </div>
-
-              <div class="courses"><span style="color:#005779">&#9656;</span> <b>Computational Methods Summer School, Teaching Assistant, LSE, 2017,2018</b>
-                  <div class="instructors"> Instructors: Wouter den Haan, Petr Sedl&aacute;&#269;ek and Pontus Rendahl </div>
-              </div>
-
-              <div class="courses"><span style="color:#005779">&#9656;</span> <b>Industrial Organization, Teaching Assistant, Bocconi, 2013</b>
-                  <div class="instructors"> Instructors: Chiara Fumagalli and Michele Polo </div>
-              </div>
-
-              <div class="title_content" style="margin-bottom:20px;">
-                   <h3 style="color:#005779"> Awards </h3>
-              </div>
-              <div class="courses"><span style="color:#005779">&#9656;</span> Excellence in Education, 2020</div>
-          </div>
-      </div>
-  </section> -->
-
-<!-- References  -->
-<!--   <section id="references" class="container text-left">
-      <div class='row'>
-      <div class="col-lg-9 col-lg-offset-2">
-      <h2 style="margin-bottom:0px;margin-top:70px"><span> References </span></h2>
-      <hr>
-          <div class="column" style="float:left;  flex: 33%; padding:0px; margin-right:40px">
-            <h4>Wouter den Haan <a href="http://www.wouterdenhaan.com/" class="icon_a"><i class="fas fa-external-link-alt fa-sm"></i> </a></h4>
-            <p><span style="font-size:0.7em">Department of Economics <br> London School of Economics <br> Houghton Street <br> London, WC2A 2AE, UK <br>
-                +44 (0)20 7955 7669  <br>
-            <a href="mailto:W.Denhaan@lse.ac.uk"><tt>w.denhaan<span style="display:none;">ignoreme-</span>@lse.ac.uk</tt></a> <br>
-            </span>
-          </p>
-          </div>
-          <div class="column" style="float:left;  flex: 33%; padding:0px; ; margin-right:40px">
-              <h4>Ricardo Reis <a href="http://personal.lse.ac.uk/reisr/" class="icon_a"><i class="fas fa-external-link-alt fa-sm"></i> </a></h4>
-              <p><span style="font-size:0.7em;line-height:0.9">Department of Economics <br> London School of Economics <br> Houghton Street <br> London, WC2A 2AE, UK <br>
-                  +44 (0)20 7955 7508 <br>
-              <a href="mailto:R.A.Reis@lse.ac.uk"><tt>r.a.reis<span style="display:none;">ignoreme-</span>@lse.ac.uk</tt></a> </span></span>
-            </p>
-            </div>
-          <div class="column" style="float:left;  flex: 33%; padding:0px; margin-right:20px">
-              <h4>Silvana Tenreyro <a href="http://personal.lse.ac.uk/tenreyro/" class="icon_a"><i class="fas fa-external-link-alt fa-sm"></i> </a></h4>
-              <p><span style="font-size:0.7em">Department of Economics <br> London School of Economics <br> Houghton Street <br> London, WC2A 2AE, UK <br>
-                  +44 (0)20 7955 6018 <br>
-              <a href="mailto:S.Tenreyro@lse.ac.uk"><tt>s.tenreyro<span style="display:none;">ignoreme-</span>@lse.ac.uk</tt></a> </span></span>
-          </p>
-          </div>
-      </div>
-  </div>
-  </section> -->
-
-<!-- RESUME Section -->
-<!-- <section id="resume" class="container  text-left">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-            <h2 style="margin-bottom:0px;margin-top:70px"><span> Curriculum Vitae </span></h2>
-
-            <p style="text-align:left;margin-top:40px"><a href="files/cv/linktocv.pdf" class="" target="_blank"><i class="fa fa-cloud-download fa-fw" style="color:#606060"></i> Open PDF</a></p>
-
-            <div class="title_content" style="margin-bottom:20px;">
-                 <h3 style="color:#005779">    Education </h3>
-           </div>
-
-
-        <div class="col-md-3">&nbsp; 2016-ongoing </div>
-        <div class="col-md-9"> Ph.D. Economics - London School of Economics
-        </div>
-    </div>
-
-
-        <div class="col-md-3">
-                &nbsp; 2014-2016
-        </div>
-        <div class="col-md-9">
-                M.Res. Economics - London School of Economics
-        </div>
-    </div>
-
-
-        <div class="col-md-3">
-                &nbsp; 2010-2013
-        </div>
-        <div class="col-md-9">
-                M.Sc. Economics and Social Sciences - Bocconi University
-        </div>
-    </div>
-
-
-        <div class="col-md-3">
-                &nbsp; 2007-2010
-        </div>
-        <div class="col-md-9">
-                B.A. Economics and Social Sciences - Bocconi University <br>
-                Exchange program at University of California, San Diego (Fall 2009)
-        </div>
-    </div>
-
-    <div class="title_content" style="margin-bottom:20px;">
-         <h3 style="color:#005779"> Fellowships, Scholarships & Awards</h3>
-    </div>
-
-
-        <div class="col-md-3">
-          &nbsp; 2018-ongoing    </div>
-        <div class="col-md-9">
-                LSE Teaching Fellowship
-        </div>
-    </div>
-
-
-          <div class="col-md-3">
-            &nbsp; 2018    </div>
-          <div class="col-md-9">
-                  Royal Economic Society, Easter Training School
-          </div>
-      </div>
-
-
-          <div class="col-md-3">
-            &nbsp; 2017 and 2018    </div>
-          <div class="col-md-9">
-                  VisitINPS Scholarship, joint with Edoardo Maria Acabbi
-          </div>
-      </div>
-
-
-        <div class="col-md-3">
-                &nbsp; 2014-2018
-        </div>
-        <div class="col-md-9">
-                ESRC, LSE Doctoral Training Award
-        </div>
-    </div>
-
-    <div class="title_content">
-         <h3 style="color:#005779">   Teaching </h3>
-   </div>
-
-   <h4>Graduate</h4>
-
-
-        <div class="col-md-3">&nbsp; 2018-2019    </div>
-        <div class="col-md-9">
-                Microeconomics and Macroeconomics for Public Policy (Master level), LSE
-        </div>
-    </div>
-
-        <div class="col-md-3">
-              &nbsp; Summer 2018
-        </div>
-        <div class="col-md-9">
-             Tools for Macroeconomists: The Essentials and Advanced Tools (PhD level)<br>LSE Methods Summer School 2018
-        </div>
-    </div>
-
-        <div class="col-md-3">
-            &nbsp; Summer 2017
-        </div>
-        <div class="col-md-9">
-             Tools for Macroeconomists: The Essentials (PhD level)<br>LSE Methods Summer School 2017
-          </div>
-    </div>
-
-   <h4>Undergrad</h4>
-
-        <div class="col-md-3">
-                &nbsp; 2016-2018
-        </div>
-        <div class="col-md-9">
-                Macroeconomic Principles, LSE
-        </div>
-    </div>
-
-
-        <div class="col-md-3">
-                &nbsp; 2013-2014
-        </div>
-        <div class="col-md-9">
-                Industrial Organization, Bocconi University
-        </div>
-
-    <p style="text-align:center;margin-bottom:100"></p>
-
-        </div>
-    </div>
-</section> -->
-
 <!-- Footer -->
-<footer  style="background:#005779">
-            <p style="font-size:70%;color:#ffffff">
+<footer class="site-footer">
+            <p>
            All views expressed on this site are my own and do not reflect those of the Bank of England, its policy committees and of any entity with which I am affiliated
-    <!--                 I wrote this  using <a href="http://getbootstrap.com/getting-started/" target="_blank">Bootstrap</a>, <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">FontAwesome</a>,
-            Navbar from <a href="http://ironsummitmedia.github.io/startbootstrap-grayscale/" target="_blank">here</a>.
-    -->
             </p>
 </footer>
 
@@ -449,26 +118,8 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/grayscale.js"></script>
 
-<script>
-$(document).ready(function () {
-    $("body").keydown(function(e) {
-      if(e.which == 37) { // left
-          $(".previous a").trigger("click");
-      }
-      else if(e.which == 39) { // right
-          $(".next a").trigger("click");
-      }
-    });
-    $(".previous a").on("click",function(){
-        // your scripts for previous click here
-        window.location = 'http://www.google.com';
-    });
-    $(".next a").on("click",function(){
-        // your scripts for next click here
-        window.location = 'http://sg.yahoo.com/';
-    });
-});
-</script>
+<!-- Paper data and rendering -->
+<script src="data/papers.js"></script>
 
 </body>
 
