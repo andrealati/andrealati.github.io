@@ -22,10 +22,10 @@ var papers = [
       { name: "Luca Mazzone", url: "https://lucamazzone.github.io" },
       { name: "Marta Morazzoni", url: "https://martamorazzoni.weebly.com/" }
     ],
-    year: 2025,
+    year: 2026,
     title: "Sorting into Entrepreneurial Teams",
     pdf: "https://andrealati.github.io/docs/wp/AAMM_team.pdf",
-    note: 'Also available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4068858">SSRN</a>',
+    note: 'Also available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5138383">SSRN</a> and <a href="https://cepr.org/publications/dp21393">CEPR-DP21393</a>',
     abstract: "This paper studies how entrepreneurs sort into teams and how team entrepreneurship affects the equilibrium distribution of firms. Leveraging employer-employee administrative records matched with privately-held firms\u2019 balance sheet data for Portugal, we show that firms of entrepreneurial teams have higher sales, productivity and survival rates than those owned by single entrepreneurs. We then exploit information on individuals\u2019 careers before opening a firm to establish that there is a strong degree of sorting in entrepreneurial teams along observed and unobserved heterogeneity. A novel theory of career choices and team formation rationalizes why similarity in entrepreneurs\u2019 overall talent and dissimilarity in their specialization lead to better firm outcomes, providing insights into the micro-foundations of firm growth.",
     category: "wp"
   },
@@ -39,7 +39,7 @@ var papers = [
     year: 2026,
     title: "The Collapse of Human Capital Ladders in Recessions",
     pdf: "https://andrealati.github.io/docs/wp/human_capital_ladders_aam.pdf",
-    note: 'R &amp; R at the American Economic Review, also available at <a href="...">SSRN</a> and <a href="...">BoE-WP</a><br/>Previously circulated as <i>"Human Capital Ladders, Cyclical Sorting, and Hysteresis"</i>',
+    note: 'R &amp; R (II round) at the American Economic Review, also available at <a href="...">SSRN</a> and <a href="...">BoE-WP</a><br/>Previously circulated as <i>"Human Capital Ladders, Cyclical Sorting, and Hysteresis"</i>',
     abstract: "Using administrative data, we document that workers acquire more human capital at more productive firms. Recessions distort workers-firm sorting, flatten the job ladder and impact human capital accumulation, as workers match on average to worse firms. To quantify the aggregate relevance of these effects, we build a directed search model with aggregate risk and worker-firm heterogeneity, in which human capital accumulation depends on firm quality. We estimate the model and show that recessions have persistent negative effects on the productivity of worker-firm matches, with distortions in sorting and human capital accumulation accounting for approximately 30% of cumulative output losses.",
     category: "wp"
   },
