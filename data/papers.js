@@ -84,6 +84,15 @@ var papers = [
   },
 
   // ---- Work in Progress ----
+  {
+    authors: [
+      { name: "Andrea Alati" },
+      { name: "Edoardo Acabbi", url: "https://eacabbi.github.io" },
+      { name: "Francesco Del Prato", url: "https://francescodelprato.github.io/" },
+    ],
+    title: "The Worker and Firm Components of Monopsony",
+    category: "wip"
+  },
 
   {
     authors: [
