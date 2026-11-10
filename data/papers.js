@@ -49,8 +49,8 @@ var papers = [
     pdf: "https://andrealati.github.io/docs/wp/human_capital_ladders_aam.pdf",
     status: "R&R (2nd round), American Economic Review",
     links: [
-      { label: "SSRN", url: "" },   // TODO: real URL (was a "..." placeholder)
-      { label: "BoE WP", url: "" }  // TODO: real URL (was a "..." placeholder)
+      { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4068858" },
+      { label: "BoE WP", url: "https://www.bankofengland.co.uk/working-paper/2024/human-capital-ladders-cyclical-sorting-and-hysteresis" }
     ],
     note: 'Previously circulated as <i>“Human Capital Ladders, Cyclical Sorting, and Hysteresis”</i>',
     abstract: "Using administrative data, we document that workers acquire more human capital at more productive firms. Recessions distort workers-firm sorting, flatten the job ladder and impact human capital accumulation, as workers match on average to worse firms. To quantify the aggregate relevance of these effects, we build a directed search model with aggregate risk and worker-firm heterogeneity, in which human capital accumulation depends on firm quality. We estimate the model and show that recessions have persistent negative effects on the productivity of worker-firm matches, with distortions in sorting and human capital accumulation accounting for approximately 30% of cumulative output losses.",
