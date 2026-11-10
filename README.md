@@ -1,19 +1,22 @@
-# Template for an Academic Website
+# andrealati.github.io
 
-This template works as a simple, one-page,  academic website. Ready to use for everyone knowing close to nothing about HTML and CSS.    
+Personal academic website: one static page served by GitHub Pages, with no build step and no libraries.
 
-This is a revisited version of Jacopo Perego's website [here](http://www.jperego.com/).
+## Files
 
-The template  is a heavly edited version of a Start Bootstrap template, available here https://github.com/blackrockdigital/startbootstrap-grayscale/. All merits go to https://github.com/davidtmiller.
+- `index.html`: page structure, bio and contact links
+- `data/papers.js`: **the list of papers**. Edit the `papers` array to add, remove or update a paper (the fields are documented at the top of the file). The page draws itself from this list.
+- `css/style.css`: all styling. Colours (light and dark) are defined at the top.
+- `js/site.js`: light/dark toggle and nav highlighting
+- `docs/`: CV and working-paper PDFs
+- `img/profile.jpg`: portrait (resized to ~480px; the originals are `profile_pic*.jpg`)
 
+## Preview locally
 
-## Getting Started
-Download folder and upload it to your server. Edit index.hmtl for changing content and css/style.css for changing apparences.
+```bash
+python3 -m http.server 8080
+```
 
-If you have no previous knowledge of HTML and CSS you may want to quickly skim through this http://www.w3schools.com/html/ and
- this http://www.w3schools.com/css/default.asp
+Then open http://localhost:8080.
 
-
-## Copyright and License
-
-Code released under the Apache 2.0 license.
+Originally adapted from Jacopo Perego's academic template (itself based on Start Bootstrap's Grayscale theme, Apache 2.0).

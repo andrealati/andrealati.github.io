@@ -2,124 +2,91 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Andrea Alati - Research Economist at the Bank of England. Research interests in macroeconomics, firm dynamics, and monetary policy.">
-    <meta name="author" content="Andrea Alati">
-    <meta name="keywords" content="economics, andrea, alati, macro, firm, dynamics, markups, LSE, research, economia">
-    <meta property="og:title" content="Andrea Alati - Research Economist">
-    <meta property="og:description" content="Research in macroeconomics, firm dynamics, and monetary policy at the Bank of England.">
-    <meta property="og:url" content="https://andrealati.github.io/">
-    <meta property="og:type" content="website">  
-      
-    <!-- <meta name="googlebot" content="noindex"> -->
-    
-    <title>Andrea Alati</title>
-    <!-- Here write path for you favicon.ico image -->
-    <link rel="shortcut icon" href="img/pp.ico">
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/style1.css?v=2" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <script src="https://kit.fontawesome.com/1e0e372627.js" crossorigin="anonymous"></script>
-    <!-- Change this line if you want to load other fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andrea Alati</title>
+  <meta name="description" content="Andrea Alati - Research Economist at the Bank of England. Research interests in macroeconomics, firm dynamics, and monetary policy.">
+  <meta name="author" content="Andrea Alati">
+  <meta name="keywords" content="economics, andrea, alati, macro, firm, dynamics, markups, LSE, research, economia">
+  <meta property="og:title" content="Andrea Alati - Research Economist">
+  <meta property="og:description" content="Research in macroeconomics, firm dynamics, and monetary policy at the Bank of England.">
+  <meta property="og:url" content="https://andrealati.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://andrealati.github.io/img/profile.jpg">
+
+  <link rel="icon" href="img/pp.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="css/style.css?v=2" rel="stylesheet">
+
+  <!-- Apply a saved light/dark choice before the page paints (avoids a flash) -->
+  <script>
+    try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-      <div class="container">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="site-name" href="#top">Andrea Alati</a>
+      <nav class="site-nav" aria-label="Sections">
+        <a href="#research">Research</a>
+        <a href="#wip">Work in progress</a>
+        <a href="docs/cv_alati.pdf">CV</a>
+        <button class="theme-toggle" type="button" aria-label="Switch between light and dark mode">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            <path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
 
-          <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                  <i class="fa fa-bars nav-icon" aria-hidden="true"></i>
-              </button>
-              <a class="navbar-brand page-scroll" href="#page-top">
-                    <span class="light nav-icon">
-                  <i class="fas fa-igloo nav-icon" aria-hidden="true"></i> Home </span>
-              </a>
-          </div>
+  <main id="top" class="wrap">
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-              <ul class="nav navbar-nav">
-                  <li>
-                      <a class="page-scroll nav-link" href="#research">Research</a>
-                  </li>
-              </ul>
-          </div>
-          <!-- /.navbar-collapse -->
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="about-text">
+        <h2>About me</h2>
+        <p>Hi! I am a senior research economist in the Monetary Analysis Directorate at the Bank of England. My research interests are in macroeconomics, firm dynamics, and monetary policy. My work to date has primarily focused on the interactions between labor markets, firm dynamics and business cycles.</p>
+        <p>I received my Ph.D. in Economics from the London School of Economics.</p>
+        <div class="about-links">
+          <a class="pill" href="mailto:alati.andrea@gmail.com">Email</a>
+          <a class="pill" href="https://github.com/andrealati">GitHub</a>
+          <a class="pill" href="docs/cv_alati.pdf">CV</a>
+        </div>
       </div>
-      <!-- /.container -->
-  </nav>
-
-
-  <!-- Intro Header -->
-  <section id="header" class="container text-left">
-      <div class='row'>
-        <div class="col-lg-9 col-lg-offset-2">
-            <div class="column profile-sidebar">
-
-              <h1 class="profile-name">
-               <img src="profile_pic2.jpg" class="profile-photo">
-               <br><strong>Andrea Alati</strong>
-               </h1>
-                <a href="mailto:alati.andrea@gmail.com" class="icon_a"><i class="fa fa-envelope"></i><span class="link-text">email</span> Email</a>
-                <br><a href="https://github.com/andrealati" class="icon_a"><i class="fa fa-github"></i><span class="link-text">github</span> GitHub</a>
-              </div>
-            <div class="column bio-content">
-
-              Hi! I am a senior research economist in the Monetary Analysis Directorate at the Bank of England. My research interests are in macroeconomics, firm dynamics, and monetary policy. My work to date has primarily focused on the interactions between labor markets, firm dynamics and business cycles.
-
-              <br>
-              <br> I received my Ph.D. in Economics from the London School of Economics.
-
-              <br>
-              <br><strong>CV</strong>:<a href="https://andrealati.github.io/docs/cv_alati.pdf" target="_blank" class="icon_a"> <i class="far fa-file-pdf"></i></a>
-            </div>
-          </div>
-        </div>
-  </section>
-
-    <!-- Research Section -->
-    <section id="research" class="container text-left">
-        <div class="row">
-            <div class="col-lg-9 col-lg-offset-2">
-
-                    <h2 class="section-heading"><span> Research</span></h2>
-                    <hr>
-
-                    <div id="papers-container"></div>
-            </div>
-        </div>
+      <img class="portrait" src="img/profile.jpg" alt="Andrea Alati" width="473" height="480">
     </section>
 
-<!-- Footer -->
-<footer class="site-footer">
-            <p>
-           All views expressed on this site are my own and do not reflect those of the Bank of England, its policy committees and of any entity with which I am affiliated
-            </p>
-</footer>
+    <!-- Research: filled from data/papers.js -->
+    <section id="research" class="papers-section">
+      <h2>Working papers</h2>
+      <div data-papers="wp"></div>
+    </section>
 
+    <section id="wip" class="papers-section">
+      <h2>Work in progress</h2>
+      <div data-papers="wip"></div>
 
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
+      <h2 class="subsection">Dormant</h2>
+      <div data-papers="dormant"></div>
+    </section>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+  </main>
 
-<!-- Plugin JavaScript -->
-<script src="js/jquery.easing.min.js"></script>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>All views expressed on this site are my own and do not reflect those of the Bank of England, its policy committees and of any entity with which I am affiliated</p>
+    </div>
+  </footer>
 
-<!-- Custom Theme JavaScript -->
-<script src="js/grayscale.js"></script>
-
-<!-- Paper data and rendering -->
-<script src="data/papers.js"></script>
+  <!-- Bump ?v= after editing these files so browsers don't serve a cached copy -->
+  <script src="data/papers.js?v=4"></script>
+  <script src="js/site.js?v=1"></script>
 
 </body>
 
