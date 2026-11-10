@@ -176,7 +176,6 @@ section { scroll-margin-top: 72px; }
   align-items: start;
   padding-bottom: 56px;
 }
-.about-text h2 { margin-bottom: 16px; }
 .about-text p { margin: 0 0 14px; }
 
 .about-links {
@@ -281,10 +280,10 @@ section { scroll-margin-top: 72px; }
 /* Small outlined buttons: paper links and contact links */
 .pill {
   display: inline-block;
-  padding: 6px 11px;
+  padding: 4px 9px;
   border: 1px solid var(--pill-border);
   border-radius: 999px;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 500;
   line-height: 1;
   color: var(--text);
