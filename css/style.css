@@ -10,6 +10,8 @@
   --line: #e7e9ec;
   --accent: #005799;
   --pill-border: #d8dce1;
+  --warm-bg: #fbf0dc;
+  --warm-text: #8a520c;
   --maxw: 680px;
   color-scheme: light;
 }
@@ -23,6 +25,8 @@
     --line: #262a31;
     --accent: #6fb3ea;
     --pill-border: #353a43;
+    --warm-bg: #3a2a12;
+    --warm-text: #f3c27a;
     color-scheme: dark;
   }
 }
@@ -35,6 +39,8 @@
   --line: #262a31;
   --accent: #6fb3ea;
   --pill-border: #353a43;
+  --warm-bg: #3a2a12;
+  --warm-text: #f3c27a;
   color-scheme: dark;
 }
 
@@ -61,8 +67,21 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; text-underline-offset: 3px; }
+/* Links: an underline slides in from the left on hover */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.25s ease, color 0.15s;
+}
+a:hover { background-size: 100% 1px; }
+.pill, .site-name { background-image: none; }
+@media (prefers-reduced-motion: reduce) {
+  a { transition: none; }
+}
 
 a:focus-visible, button:focus-visible, summary:focus-visible {
   outline: 2px solid var(--accent);
@@ -218,8 +237,9 @@ section { scroll-margin-top: 72px; }
 
 .paper-note {
   margin: 2px 0 0;
-  font-size: 0.875rem;
-  color: var(--muted);
+  font-size: 0.8125rem;
+  /* a step lighter than the author line, still readable (>= 4.5:1 contrast) */
+  color: color-mix(in srgb, var(--muted) 60%, var(--faint));
 }
 
 .status {
@@ -229,8 +249,8 @@ section { scroll-margin-top: 72px; }
   border-radius: 999px;
   font-size: 0.75rem;
   font-weight: 500;
-  color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--warm-text);
+  background: var(--warm-bg);
 }
 
 .paper-abstract { margin-top: 5px; }
